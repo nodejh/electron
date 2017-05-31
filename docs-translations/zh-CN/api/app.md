@@ -417,7 +417,7 @@ Windows, 使应用的第一个窗口获取焦点.
 
 **注意:** 当您发布打包后的应用程序时，需包含 `locales` 目录。
 
-**Note:** 在 macOS 系统中，必须在 `ready` 事件发出后调用它。
+**注意:** 在 macOS 系统中，必须在 `ready` 事件发出后调用它。
 
 ### `app.addRecentDocument(path)`  _macOS_ _Windows_
 
