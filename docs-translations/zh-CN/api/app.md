@@ -413,6 +413,12 @@ Windows, 使应用的第一个窗口获取焦点.
 
 返回当前应用程序的语言。
 
+返回 `String` - 当前应用程序的语言。可能返回的值在 [这里](locales.md)。
+
+**注意:** 当您发布打包后的应用程序时，需包含 `locales` 目录。
+
+**Note:** 在 macOS 系统中，必须在 `ready` 事件发出后调用它。
+
 ### `app.addRecentDocument(path)`  _macOS_ _Windows_
 
 * `path` String
